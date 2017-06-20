@@ -13,12 +13,15 @@ git clone https://github.com/LoloSong/eyekey.git
 三.EyeKey对象
 
 	1.创建EyeKey对象的语法:
-<pre>
+
 	new EyeKey({
+
 		appID: '',
+
     	appKey: ''
+
 	});
-</pre>
+
 
 	2.EyeKey对象方法
 
@@ -33,8 +36,14 @@ git clone https://github.com/LoloSong/eyekey.git
 		返回值为相似度百分比
 
 四.demo
-<pre>
-	var eye = new EyeKey({appID: '', appKey: ''});
+
+	var eye = new EyeKey({
+		
+		appID: '', 
+
+		appKey: ''
+
+	});
 
 	//获得第一张图片faceID
 	var a = eye.faceID('url','http://api.touchworld-sh.com:8000/face/face_1.png');
@@ -46,4 +55,4 @@ git clone https://github.com/LoloSong/eyekey.git
 	var c = eye.compare(a,b);
 	document.write('相似度'+ c + '%');
 
-</pre>
+
