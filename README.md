@@ -3,12 +3,15 @@
 eyekey官网http://www.eyekey.com/index.html
 
 clone项目地址
-git clone 
+git clone https://github.com/LoloSong/eyekey.git
 
 
 一.官网注册得appID,appKey
+
 二.下载插件引入,依赖jquery
+
 三.EyeKey对象
+
 	1.创建EyeKey对象的语法：
 	<pre>
 		new EyeKey({
