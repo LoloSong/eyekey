@@ -12,13 +12,13 @@ git clone https://github.com/LoloSong/eyekey.git
 
 三.EyeKey对象
 
-	1.创建EyeKey对象的语法：
-	<pre>
-		new EyeKey({
-			appID: '',
-	    	appKey: ''
-		});
-	</pre>
+	1.创建EyeKey对象的语法:
+<pre>
+	new EyeKey({
+		appID: '',
+    	appKey: ''
+	});
+</pre>
 
 	2.EyeKey对象方法
 
@@ -27,7 +27,7 @@ git clone https://github.com/LoloSong/eyekey.git
 			'url':'http://...'
 			'img': base64
 			'file': file
-		返回值微faceID
+		返回值为faceID
 
 		compare(faceID1,faceID2): 将2张faceID作相似度对比
 		返回值为相似度百分比
