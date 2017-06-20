@@ -16,25 +16,25 @@ git clone https://github.com/LoloSong/eyekey.git
 	<pre>
 		new EyeKey({
 			appID: '',
-        	appKey: ''
+	    	appKey: ''
 		});
 	</pre>
 
 	2.EyeKey对象方法
+
 		faceID(type,file): 用于获取图片的faceID
 			type和file分别为传输图片方式和路径，有三种传输方式
-				'url':'http://...'
-				'img': base64
-				'file': file
+			'url':'http://...'
+			'img': base64
+			'file': file
+		返回值微faceID
 
 		compare(faceID1,faceID2): 将2张faceID作相似度对比
+		返回值为相似度百分比
 
 四.demo
 <pre>
-	var eye = new EyeKey({
-			appID: '',
-        	appKey: ''
-		});
+	var eye = new EyeKey({appID: '', appKey: ''});
 
 	//获得第一张图片faceID
 	var a = eye.faceID('url','http://api.touchworld-sh.com:8000/face/face_1.png');
